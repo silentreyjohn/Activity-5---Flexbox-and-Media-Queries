@@ -1,0 +1,22 @@
+.flex-container{
+    background-color: gray;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    
+}
+.flex-item{
+    margin: 20px;
+    padding: 20px;
+    
+    background-color: blue;
+}
+@media screen and (max-width:600px){
+    .flex-container{
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    }
+}
